@@ -26,7 +26,7 @@ execute:
 
 ```{r}
 #| label: expected-value
-#| echo: true
+#| echo: false
 
 # Set seed for reproducibility
 set.seed(123)
@@ -61,7 +61,7 @@ cat("Expected return: ", ((expected_value - initial_balance) / initial_balance) 
 
 ```{r}
 #| label: single-simulation
-#| echo: true
+#| echo: false
 
 # Set seed for reproducibility
 set.seed(456)
@@ -121,7 +121,7 @@ cat("Total return: ", round(((final_balance - initial_balance) / initial_balance
 
 ```{r}
 #| label: multiple-simulations
-#| echo: true
+#| echo: false
 
 # Set seed for reproducibility
 set.seed(789)
@@ -184,7 +184,7 @@ cat("Probability above initial: ", round(prob_above_initial, 3), "\n", sep = "")
 
 ```{r}
 #| label: probability-analysis
-#| echo: true
+#| echo: false
 
 # Calculate probability from the 100 simulations above
 prob_above_1000 <- mean(distribution_data$final_balance > 1000)
@@ -216,7 +216,7 @@ In the modified strategy, you must bet exactly 50% of your current account balan
 
 ```{r}
 #| label: strategy-comparison
-#| echo: true
+#| echo: false
 
 # Set seed for reproducibility
 set.seed(101)
