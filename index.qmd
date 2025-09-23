@@ -273,7 +273,7 @@ cat("Modified - Mean: $", round(mean(modified_final_balances), 2),
     ", Median: $", round(median(modified_final_balances), 2), "\n", sep = "")
 ```
 
-**Analysis:** The modified strategy is steadier: about 49% end above $1,000 vs 22% for the original. But it’s less likely to hit huge wins ($10,000+: 2% vs 5%). In short, it trades big upside for better odds of a decent result.
+**Analysis:** The modified strategy is steadier: about 47% end above $1,000 vs 29% for the original. But it’s less likely to hit huge wins ($10,000+: 4% vs 5%). In short, it trades big upside for better odds of a decent result.
 
 ---
 
